@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0465C7211FC7E1DD005F4048 /* XZCategoryTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCategoryTool.h; sourceTree = "<group>"; };
 		0471DB971FC7CBAB000A7FF1 /* CategoryToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471DB9A1FC7CBAB000A7FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0471DB9B1FC7CBAB000A7FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 		0471DBCC1FC7CC34000A7FF1 /* XZCategoryTool */ = {
 			isa = PBXGroup;
 			children = (
+				0465C7211FC7E1DD005F4048 /* XZCategoryTool.h */,
 				0471DBCD1FC7CC34000A7FF1 /* UIView */,
 				0471DBD61FC7CC34000A7FF1 /* NSObject+Tool.m */,
 				0471DBD71FC7CC34000A7FF1 /* NSObject+Tool.h */,
@@ -162,14 +164,14 @@
 		0471DBCD1FC7CC34000A7FF1 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				0471DBCE1FC7CC34000A7FF1 /* UIButton+Creat.m */,
-				0471DBCF1FC7CC34000A7FF1 /* UITextField+Creat.h */,
-				0471DBD01FC7CC34000A7FF1 /* UILabel+Creat.h */,
-				0471DBD11FC7CC34000A7FF1 /* UIAlertController+Creat.m */,
-				0471DBD21FC7CC34000A7FF1 /* UITextField+Creat.m */,
-				0471DBD31FC7CC34000A7FF1 /* UIButton+Creat.h */,
 				0471DBD41FC7CC34000A7FF1 /* UIAlertController+Creat.h */,
+				0471DBD11FC7CC34000A7FF1 /* UIAlertController+Creat.m */,
+				0471DBD31FC7CC34000A7FF1 /* UIButton+Creat.h */,
+				0471DBCE1FC7CC34000A7FF1 /* UIButton+Creat.m */,
+				0471DBD01FC7CC34000A7FF1 /* UILabel+Creat.h */,
 				0471DBD51FC7CC34000A7FF1 /* UILabel+Creat.m */,
+				0471DBCF1FC7CC34000A7FF1 /* UITextField+Creat.h */,
+				0471DBD21FC7CC34000A7FF1 /* UITextField+Creat.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
