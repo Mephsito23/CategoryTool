@@ -1,0 +1,15 @@
+PODS:
+  - SDAutoLayout (2.1.9)
+  - XZCategoryTool (0.0.4)
+
+DEPENDENCIES:
+  - SDAutoLayout (~> 2.1.3)
+  - XZCategoryTool (~> 0.0.4)
+
+SPEC CHECKSUMS:
+  SDAutoLayout: 6b6f4db0d009dfc46cef14ef710dbb164e86616c
+  XZCategoryTool: 84d6dfb46bcbceadac8430f14bdd42e388bc9695
+
+PODFILE CHECKSUM: 5a08f8e7ae868a43af44e2bcf4314680f52c8c48
+
+COCOAPODS: 1.3.1

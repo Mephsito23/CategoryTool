@@ -15,11 +15,7 @@
 		0471DBAA1FC7CBAB000A7FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBA91FC7CBAB000A7FF1 /* main.m */; };
 		0471DBB41FC7CBAB000A7FF1 /* CategoryToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBB31FC7CBAB000A7FF1 /* CategoryToolDemoTests.m */; };
 		0471DBBF1FC7CBAB000A7FF1 /* CategoryToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBBE1FC7CBAB000A7FF1 /* CategoryToolDemoUITests.m */; };
-		0471DBD81FC7CC34000A7FF1 /* UIButton+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBCE1FC7CC34000A7FF1 /* UIButton+Creat.m */; };
-		0471DBD91FC7CC34000A7FF1 /* UIAlertController+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBD11FC7CC34000A7FF1 /* UIAlertController+Creat.m */; };
-		0471DBDA1FC7CC34000A7FF1 /* UITextField+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBD21FC7CC34000A7FF1 /* UITextField+Creat.m */; };
-		0471DBDB1FC7CC34000A7FF1 /* UILabel+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBD51FC7CC34000A7FF1 /* UILabel+Creat.m */; };
-		0471DBDC1FC7CC34000A7FF1 /* NSObject+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471DBD61FC7CC34000A7FF1 /* NSObject+Tool.m */; };
+		EE9A8BE783216369F4B681E7 /* Pods_CategoryToolDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51147DCD4DA4DEDA086876F5 /* Pods_CategoryToolDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0465C7211FC7E1DD005F4048 /* XZCategoryTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCategoryTool.h; sourceTree = "<group>"; };
 		0471DB971FC7CBAB000A7FF1 /* CategoryToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471DB9A1FC7CBAB000A7FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0471DB9B1FC7CBAB000A7FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,16 +52,9 @@
 		0471DBBA1FC7CBAB000A7FF1 /* CategoryToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471DBBE1FC7CBAB000A7FF1 /* CategoryToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryToolDemoUITests.m; sourceTree = "<group>"; };
 		0471DBC01FC7CBAB000A7FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0471DBCE1FC7CC34000A7FF1 /* UIButton+Creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Creat.m"; sourceTree = "<group>"; };
-		0471DBCF1FC7CC34000A7FF1 /* UITextField+Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Creat.h"; sourceTree = "<group>"; };
-		0471DBD01FC7CC34000A7FF1 /* UILabel+Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Creat.h"; sourceTree = "<group>"; };
-		0471DBD11FC7CC34000A7FF1 /* UIAlertController+Creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Creat.m"; sourceTree = "<group>"; };
-		0471DBD21FC7CC34000A7FF1 /* UITextField+Creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Creat.m"; sourceTree = "<group>"; };
-		0471DBD31FC7CC34000A7FF1 /* UIButton+Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Creat.h"; sourceTree = "<group>"; };
-		0471DBD41FC7CC34000A7FF1 /* UIAlertController+Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Creat.h"; sourceTree = "<group>"; };
-		0471DBD51FC7CC34000A7FF1 /* UILabel+Creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Creat.m"; sourceTree = "<group>"; };
-		0471DBD61FC7CC34000A7FF1 /* NSObject+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tool.m"; sourceTree = "<group>"; };
-		0471DBD71FC7CC34000A7FF1 /* NSObject+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tool.h"; sourceTree = "<group>"; };
+		2D6818FFB01599167DF80BBB /* Pods-CategoryToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryToolDemo/Pods-CategoryToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		51147DCD4DA4DEDA086876F5 /* Pods_CategoryToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CategoryToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00DBF656F569120631C8EEB /* Pods-CategoryToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryToolDemo/Pods-CategoryToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9A8BE783216369F4B681E7 /* Pods_CategoryToolDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,11 +86,12 @@
 		0471DB8E1FC7CBAB000A7FF1 = {
 			isa = PBXGroup;
 			children = (
-				0471DBCC1FC7CC34000A7FF1 /* XZCategoryTool */,
 				0471DB991FC7CBAB000A7FF1 /* CategoryToolDemo */,
 				0471DBB21FC7CBAB000A7FF1 /* CategoryToolDemoTests */,
 				0471DBBD1FC7CBAB000A7FF1 /* CategoryToolDemoUITests */,
 				0471DB981FC7CBAB000A7FF1 /* Products */,
+				945FF61E08C2C07C5748028D /* Pods */,
+				ACDE8081EB5CCA892368AFCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,31 +139,21 @@
 			path = CategoryToolDemoUITests;
 			sourceTree = "<group>";
 		};
-		0471DBCC1FC7CC34000A7FF1 /* XZCategoryTool */ = {
+		945FF61E08C2C07C5748028D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0465C7211FC7E1DD005F4048 /* XZCategoryTool.h */,
-				0471DBCD1FC7CC34000A7FF1 /* UIView */,
-				0471DBD61FC7CC34000A7FF1 /* NSObject+Tool.m */,
-				0471DBD71FC7CC34000A7FF1 /* NSObject+Tool.h */,
+				E00DBF656F569120631C8EEB /* Pods-CategoryToolDemo.debug.xcconfig */,
+				2D6818FFB01599167DF80BBB /* Pods-CategoryToolDemo.release.xcconfig */,
 			);
-			name = XZCategoryTool;
-			path = ../XZCategoryTool;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		0471DBCD1FC7CC34000A7FF1 /* UIView */ = {
+		ACDE8081EB5CCA892368AFCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0471DBD41FC7CC34000A7FF1 /* UIAlertController+Creat.h */,
-				0471DBD11FC7CC34000A7FF1 /* UIAlertController+Creat.m */,
-				0471DBD31FC7CC34000A7FF1 /* UIButton+Creat.h */,
-				0471DBCE1FC7CC34000A7FF1 /* UIButton+Creat.m */,
-				0471DBD01FC7CC34000A7FF1 /* UILabel+Creat.h */,
-				0471DBD51FC7CC34000A7FF1 /* UILabel+Creat.m */,
-				0471DBCF1FC7CC34000A7FF1 /* UITextField+Creat.h */,
-				0471DBD21FC7CC34000A7FF1 /* UITextField+Creat.m */,
+				51147DCD4DA4DEDA086876F5 /* Pods_CategoryToolDemo.framework */,
 			);
-			path = UIView;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0471DBC31FC7CBAB000A7FF1 /* Build configuration list for PBXNativeTarget "CategoryToolDemo" */;
 			buildPhases = (
+				C3DF9E8374F43450EE36E856 /* [CP] Check Pods Manifest.lock */,
 				0471DB931FC7CBAB000A7FF1 /* Sources */,
 				0471DB941FC7CBAB000A7FF1 /* Frameworks */,
 				0471DB951FC7CBAB000A7FF1 /* Resources */,
+				0808A2BC4977492269016A1B /* [CP] Embed Pods Frameworks */,
+				B2AA473FEAD120D8FB95203E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,6 +287,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0808A2BC4977492269016A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CategoryToolDemo/Pods-CategoryToolDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/XZCategoryTool/XZCategoryTool.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XZCategoryTool.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CategoryToolDemo/Pods-CategoryToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AA473FEAD120D8FB95203E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CategoryToolDemo/Pods-CategoryToolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DF9E8374F43450EE36E856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CategoryToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0471DB931FC7CBAB000A7FF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,12 +350,7 @@
 			files = (
 				0471DB9F1FC7CBAB000A7FF1 /* ViewController.m in Sources */,
 				0471DBAA1FC7CBAB000A7FF1 /* main.m in Sources */,
-				0471DBD91FC7CC34000A7FF1 /* UIAlertController+Creat.m in Sources */,
-				0471DBDC1FC7CC34000A7FF1 /* NSObject+Tool.m in Sources */,
-				0471DBDA1FC7CC34000A7FF1 /* UITextField+Creat.m in Sources */,
-				0471DBDB1FC7CC34000A7FF1 /* UILabel+Creat.m in Sources */,
 				0471DB9C1FC7CBAB000A7FF1 /* AppDelegate.m in Sources */,
-				0471DBD81FC7CC34000A7FF1 /* UIButton+Creat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +511,7 @@
 		};
 		0471DBC41FC7CBAB000A7FF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00DBF656F569120631C8EEB /* Pods-CategoryToolDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +526,7 @@
 		};
 		0471DBC51FC7CBAB000A7FF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6818FFB01599167DF80BBB /* Pods-CategoryToolDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <XZCategoryTool/XZCategoryTool.h>
+#import <SDAutoLayout/SDAutoLayout.h>
 
 @interface ViewController ()
+@property (nonatomic, strong)UIButton *btnOne;
+@property (nonatomic, strong)UILabel *textL;
 
 @end
 
@@ -16,13 +20,48 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view addSubview:self.btnOne];
+    [self.view addSubview:self.textL];
+    
+    [self autoLayout];
+    
 }
 
+- (void)autoLayout{
+    
+    self.btnOne.sd_layout
+    .centerXEqualToView(self.view)
+    .centerYEqualToView(self.view)
+    .heightIs(40).widthIs(60);
+    
+    self.textL.sd_layout
+    .centerXEqualToView(self.view)
+    .topSpaceToView(self.btnOne,30)
+    .heightIs(20);
+    [self.textL setSingleLineAutoResizeWithMaxWidth:150];
+    
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark  - getter and setter
+
+- (UIButton *)btnOne{
+    if (_btnOne==nil) {
+        _btnOne=[UIButton btnWithNormaLTitle:@"按钮1"
+                            normalTitleColor:[UIColor blackColor]
+                                   backImage:nil
+                                   titleFont:16];
+    }
+    return _btnOne;
+}
+
+- (UILabel *)textL{
+    if (_textL==nil) {
+        _textL=[UILabel labelWithText:@"文本1"
+                                 font:13
+                                color:[UIColor yellowColor]];
+    }
+    return _textL;
 }
 
 

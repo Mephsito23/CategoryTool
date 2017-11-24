@@ -1,0 +1,8 @@
+target 'CategoryToolDemo' do
+platform :ios,'8.0'
+
+pod 'XZCategoryTool','~>0.0.4'
+pod 'SDAutoLayout', '~> 2.1.3'
+
+use_frameworks!
+end
