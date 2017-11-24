@@ -1,4 +1,4 @@
-# CategoryTool
+# XZCategoryTool
 
 ### 测试创建字的 cocoapods项目,封装了一些常用的类,可以通过
 `pod 'XZCategoryTool','~>0.0.4'`
